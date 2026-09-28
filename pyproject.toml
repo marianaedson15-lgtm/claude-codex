@@ -23,4 +23,3 @@ where = ["src"]
 pythonpath = ["src"]
 testpaths = ["tests"]
 
-

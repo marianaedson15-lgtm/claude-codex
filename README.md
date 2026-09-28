@@ -78,4 +78,3 @@ Las pruebas usan un cliente simulado: no requieren una clave ni generan cargos.
 - Si una clave se publica accidentalmente, revócala inmediatamente desde la consola de Anthropic.
 - El historial vive únicamente en memoria y se elimina al cerrar el programa.
 
-

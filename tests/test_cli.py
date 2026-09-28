@@ -114,4 +114,3 @@ def test_load_settings_rejects_invalid_token_limit(monkeypatch):
     with pytest.raises(ConfigurationError, match="número entero"):
         load_settings()
 
-

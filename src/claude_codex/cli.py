@@ -245,4 +245,3 @@ def main(argv: Sequence[str] | None = None) -> int:
         return 1
     return 0
 
-
