@@ -2,6 +2,8 @@
 
 Cliente de terminal en Python para conversar con Claude mediante la API oficial de Anthropic. Permite consultas únicas y sesiones interactivas con historial en memoria.
 
+La aplicación utiliza HTTPS y la biblioteca estándar de Python. No necesita el SDK de Anthropic ni dependencias externas para ejecutarse.
+
 ## Requisitos
 
 - Python 3.10 o superior.
@@ -24,6 +26,8 @@ En macOS o Linux, activa el entorno con `source .venv/bin/activate` y copia la c
 Abre `.env` y sustituye `your_api_key_here` por tu clave. Este archivo está excluido de Git y no debe publicarse.
 
 ## Uso
+
+En Windows, después de configurar `.env`, también puedes hacer doble clic en `Iniciar Claude.cmd`.
 
 Inicia una conversación interactiva:
 
@@ -73,4 +77,5 @@ Las pruebas usan un cliente simulado: no requieren una clave ni generan cargos.
 - No pegues tu clave en el código, los commits, incidencias o conversaciones.
 - Si una clave se publica accidentalmente, revócala inmediatamente desde la consola de Anthropic.
 - El historial vive únicamente en memoria y se elimina al cerrar el programa.
+
 
